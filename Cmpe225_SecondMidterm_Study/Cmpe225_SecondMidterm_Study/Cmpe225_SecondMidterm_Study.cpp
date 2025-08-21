@@ -21,14 +21,14 @@ void myPrinter(T hello)
 //Class template:
 
 template <class T, class Y>
-class Fahrettin {
+class ferivonus {
 private:
     T firstValue;
     Y SecondValue;
 
 public:
 
-    Fahrettin(T firstValue, Y SecondValue){
+    ferivonus(T firstValue, Y SecondValue){
         this->firstValue = firstValue;
         this->SecondValue = SecondValue;
 
@@ -115,9 +115,9 @@ int main()
     }
     cout << endl << endl;
     cout << "I use class for calculating: " << endl;
-    Fahrettin <double, double> calculator1(5.9, 4.3);
-    Fahrettin <int, double> calculator2(5, 6.4);
-    Fahrettin <string, string> calculator3("Fahrettin", " Basturk");
+    ferivonus <double, double> calculator1(5.9, 4.3);
+    ferivonus <int, double> calculator2(5, 6.4);
+    ferivonus <string, string> calculator3("ferivonus", " Basturk");
 
     cout << endl << "I am working on virtual functions on classes: " << endl;
     
